@@ -1,0 +1,24 @@
+{
+  "name": "react-datatable",
+  "version": "1.0.0",
+  "description": "React Datatable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insanrizky/react-datatable.git"
+  },
+  "keywords": [
+    "react",
+    "datatable",
+    "bootstrap"
+  ],
+  "author": "insanrizky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insanrizky/react-datatable/issues"
+  },
+  "homepage": "https://github.com/insanrizky/react-datatable#readme"
+}
