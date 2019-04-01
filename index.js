@@ -1,3 +1,3 @@
-import Datatable from './src/index';
+import ReactDatatable from './src/index';
 
-export default Datatable;
+export default ReactDatatable;

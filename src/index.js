@@ -96,22 +96,20 @@ DataTable.propTypes = {
     loadingLabel: PropTypes.string,
     autoIncrement: PropTypes.bool,
     autoIncrementLabel: PropTypes.string,
-    columns: PropTypes.array,
-    rows: PropTypes.array,
+    columns: PropTypes.array.isRequired,
+    rows: PropTypes.array.isRequired,
     customs: PropTypes.array,
-    meta: PropTypes.object,
+    meta: PropTypes.object.isRequired,
     noDataLabel: PropTypes.string,
 
-    updateMeta: PropTypes.func,
+    updateMeta: PropTypes.func.isRequired,
 }
 
 DataTable.defaultProps = {
     loading: false,
-    loadingLabel: 'Sedang memuat...',
+    loadingLabel: 'Loading...',
     autoIncrement: false,
     autoIncrementLabel: 'No',
-    columns: [],
-    rows: [],
     customs: [],
     meta: {
         page: 1,
@@ -121,8 +119,6 @@ DataTable.defaultProps = {
         total_page: 1
     },
     noDataLabel: 'Tidak ada data untuk ditampilkan',
-    
-    updateMeta: () => {},
 }
 
 export default DataTable;
