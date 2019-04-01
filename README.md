@@ -1,7 +1,7 @@
 # React Datatable
-This is an ONLY **SERVER SIDE** datatable for React based on [Bootstrap CSS](https://getbootstrap.com/docs/4.3/getting-started/introduction/) style.
+This is an ```ONLY SERVER SIDE``` datatable for React based on [Bootstrap CSS](https://getbootstrap.com/docs/4.3/getting-started/introduction/) style.
 
-```We do not need the client side version as it makes data load longer!```
+> We do not need the client side version as it makes data load longer!
 
 # Preview
 You can see demo [here]().
@@ -17,17 +17,21 @@ This easiest awesome package has some features below:
 - Loading Event
 
 # Requirements
+All you need is only attach [Bootstrap CSS](https://getbootstrap.com/docs/4.3/getting-started/introduction/) into your project.
 
 # Installation
 You can use `npm` or `yarn` as you like.
 
-```npm install --save-dev react-datatable```<br/>
-or<br/>
-```yarn add --dev react-datatable```
+> npm install --save-dev react-datatable
+
+or
+
+> yarn add --dev react-datatable
 
 # Example Usage
 ## Basic Table
-```
+
+<pre>
 import React from 'react';
 import ReactDatatable from 'react-datatable';
 
@@ -94,19 +98,21 @@ class Page extends React.Components {
     )
   }
 }
-```
+</pre>
 
 # Documentation
 
 Property | Type | Required | Default | Description
 --- | --- | --- | --- | ---
-loading | bool | no | `false` | Event loading
-loadingLabel | string | no | `'Loading...'` | Text will be shown while loading
-autoIncrement | bool | no | `false` | Numbering at the first column
-autoIncrementLabel | string | no | `No` | Numbering column title
 columns | array | yes | | Columns definition to be shown.<hr/>```[{ name: 'First Name', key: 'first_name' }]```
 rows  | array | yes | | Data definition to be shown.<hr/>```[{id: 1,first_name: 'John,last_name: 'Doe',username: 'john.doe',email: 'john.doe@gmail.com'}]```
-customs | array | no | ```[]``` | Custom column definition with its data pattern.<hr/>```[{ columnName: 'Action', element: item => <button>Click Me!</button> }]```,
 meta | object | yes | ```{page: 1, limit: 10, search: '', total_data: 0, total_page: 1 }``` | Meta data
-noDataLabel | string | no | ```No data available``` | Text will be shown while no data
 updateMeta | function | no | | Function to update meta data props. It will be called when you change ```page/search/total per page```.
+autoIncrement | bool | no | `false` | Numbering at the first column
+autoIncrementLabel | string | no | `No` | Numbering column title
+customs | array | no | ```[]``` | Custom column definition with its data pattern.<hr/>```[{ columnName: 'Action', element: item => <button>Click Me!</button> }]```
+loading | bool | no | `false` | Event loading
+loadingLabel | string | no | `'Loading...'` | Text will be shown while loading
+noDataLabel | string | no | ```No data available``` | Text will be shown while no data
+
+
