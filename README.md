@@ -1,4 +1,20 @@
 # React Datatable
+
+<!-- <p>
+  <a href="https://www.npmjs.com/package/vue-currency-filter">
+    <img src="https://img.shields.io/npm/v/vue-currency-filter.svg" alt="NPM Version">
+  </a>
+  <a href="https://bundlephobia.com/result?p=vue-currency-filter">
+    <img src="https://badgen.net/bundlephobia/minzip/vue-currency-filter" alt="Bundlephobia Size">
+  </a>
+  <a href="https://www.npmjs.com/package/vue-currency-filter">
+    <img src="https://img.shields.io/npm/dt/vue-currency-filter.svg" alt="Download All Time">
+  </a>
+  <a href="#contributors">
+    <img src="https://img.shields.io/badge/all_contributors-1-blue.svg" alt="All Contributors">
+  </a>
+</p> -->
+
 This is an ```ONLY SERVER SIDE``` datatable for React based on [Bootstrap CSS](https://getbootstrap.com/docs/4.3/getting-started/introduction/) style.
 
 > We do not need the client side version as it makes data load longer!
@@ -31,7 +47,7 @@ or
 # Example Usage
 ## Basic Table
 
-<pre>
+```js
 import React from 'react';
 import ReactDatatable from 'react-datatable';
 
@@ -48,21 +64,21 @@ class Page extends React.Components {
       data: [
         {
           id: 1,
-          first_name: 'John,
+          first_name: 'John',
           last_name: 'Doe',
           username: 'john.doe',
           email: 'john.doe@gmail.com',
         },
         {
           id: 2,
-          first_name: 'Jane,
+          first_name: 'Jane',
           last_name: 'Doe',
           username: 'jane.doe',
           email: 'jane.doe@gmail.com',
         },
         {
           id: 3,
-          first_name: 'Joe,
+          first_name: 'Joe',
           last_name: 'Doe',
           username: 'joe.doe',
           email: 'joe.doe@gmail.com',
@@ -98,7 +114,7 @@ class Page extends React.Components {
     )
   }
 }
-</pre>
+```
 
 # Documentation
 
@@ -115,4 +131,10 @@ loading | bool | no | `false` | Event loading
 loadingLabel | string | no | `'Loading...'` | Text will be shown while loading
 noDataLabel | string | no | ```No data available``` | Text will be shown while no data
 
+# Contribute
+If you'd like to contribute, head to the [contributing guidelines](https://github.com/mazipan/vue-currency-filter/blob/master/CONTRIBUTING.md). Inside you'll find directions for opening issues, coding standards, and notes on development.
 
+# Thanks!
+Feel free to create issue report and let me fix it for better features we need.
+
+Copyright © 2019 Built with ❤️ by Insan Rizky
