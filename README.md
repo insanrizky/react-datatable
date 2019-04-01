@@ -1,20 +1,5 @@
 # React Datatable
 
-<!-- <p>
-  <a href="https://www.npmjs.com/package/vue-currency-filter">
-    <img src="https://img.shields.io/npm/v/vue-currency-filter.svg" alt="NPM Version">
-  </a>
-  <a href="https://bundlephobia.com/result?p=vue-currency-filter">
-    <img src="https://badgen.net/bundlephobia/minzip/vue-currency-filter" alt="Bundlephobia Size">
-  </a>
-  <a href="https://www.npmjs.com/package/vue-currency-filter">
-    <img src="https://img.shields.io/npm/dt/vue-currency-filter.svg" alt="Download All Time">
-  </a>
-  <a href="#contributors">
-    <img src="https://img.shields.io/badge/all_contributors-1-blue.svg" alt="All Contributors">
-  </a>
-</p> -->
-
 This is an ```ONLY SERVER SIDE``` datatable for React based on [Bootstrap CSS](https://getbootstrap.com/docs/4.3/getting-started/introduction/) style.
 
 > We do not need the client side version as it makes data load longer!
